@@ -1,6 +1,4 @@
-﻿$(document).ready(function(){
-	/* 새 창으로 열기 */
-	$("a[href^='http']").attr('target','_blank');
+﻿$(function() {
 	
 	/* 리사이즈 */
 	$(window).trigger('resize');
@@ -370,16 +368,4 @@
 		e.stopPropagation();
 		return false;
 	});
-	// 윈도우 창에서 키보드 키 값 막기
-	/*
-		32번 : 스페이스 바
-		33번 : 페이지 업		34번 : 페이지 다운
-		35번 : 엔드				36번 : 홈
-		37번 : ←		38번 : ↑		39번 : →		40번 : ↓
-	*/
-	window.addEventListener("keydown", function(e) {
-		if([32, 33, 34, 35, 36, 37, 38, 39, 40].indexOf(e.keyCode) > -1) {
-			e.preventDefault();
-		}
-	}, false);
 });

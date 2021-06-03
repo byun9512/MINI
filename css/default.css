@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+* {margin: 0; padding: 0;}
+
+ul, ol, li {list-style: none;}
+em, address {font-style: normal;}
+sup {position: relative; top: 2px; font-size: 11px; line-height: 100%;}
+
+table {border-collapse: collapse; border-spacing: 0;}
+caption {width: 0; height: 0; font-size: 0; line-height: 0; overflow: hidden;}
+th, td {vertical-align: middle;}
+
+a, a:hover {color: #fff; text-decoration: none; outline: none;}
+button {outline: none;}
+button:focus {outline: none;}
+
+::-webkit-scrollbar {display:none;}

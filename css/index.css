@@ -1,29 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;700&family=Roboto:wght@400;700&family=Sawarabi+Mincho&display=swap');
+@charset "utf-8";
 
-/* ¦¡¦¡ Reset CSS ¦¡¦¡ */
-* {margin:0; padding:0;}
-ol,ul,li {list-style:none;}
-a {outline:0; text-decoration:none; color:#fff;}
-img {border:0;}
-body {color:#fff;}
-html {position:relative;}
-::-webkit-scrollbar {display:none;}
-
-/* ¦¡¦¡ header ¦¡¦¡ */
+/* header ë¶€ë¶„ */
 #header
 {
-	width:100%; height:86px;
-	position:fixed; left:0; top:0;
-	font-family: 'Roboto', sans-serif;
-	font-weight:bold;
-	background:transparent;
-	z-index:104;
+	width: 100%; height: 90px;
+	position: fixed; left: 0; top: 0;
+	font-weight: bold;
+	background: transparent;
+	z-index: 104;
 }
-	/* ·Î°í */
+	/* ï¿½Î°ï¿½ */
 	#header h1 {position:absolute; top:12px; left:40px;}
 	#header h1 img {width:140px; cursor:pointer;}
 	
-	/* ¸Þ´º */
+	/* ï¿½Þ´ï¿½ */
 	#header_menu {position:relative; left:340px; top:32px;}
 	#header_menu li {float:left; position:relative; cursor:pointer; margin-right:40px;}
 	#header_menu i
@@ -40,7 +30,7 @@ html {position:relative;}
 	#header_sns li img {width:24px; transition:all 0.5s;}
 	#header_sns li:hover img {transform:scale(1.1);}
 
-/* ¿ÞÂÊ ¸Þ´º */
+/* ï¿½ï¿½ï¿½ï¿½ ï¿½Þ´ï¿½ */
 #left_menu {position:fixed; top:50%; left:-340px; z-index:100; margin-top:-100px;}
 	#left_menu li
 	{
@@ -144,9 +134,9 @@ html {position:relative;}
 		border-top-color:#004e73;
 	}
 
-/* ¦¡¦¡ container ¦¡¦¡ */
-/* ¸ÞÀÎ ÆäÀÌÁö */
-	/* ½½¶óÀÌµå ¹öÆ° */
+/* ï¿½ï¿½ï¿½ï¿½ container ï¿½ï¿½ï¿½ï¿½ */
+/* ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
+	/* ï¿½ï¿½ï¿½ï¿½ï¿½Ìµï¿½ ï¿½ï¿½Æ° */
 	#slide_button li
 	{
 		width:76px; height:76px;
@@ -203,7 +193,7 @@ html {position:relative;}
 		100% {transform:translateY(0px);}
 	}
 	
-	/* ½½¶óÀÌµå ÀüÃ¼ */
+	/* ï¿½ï¿½ï¿½ï¿½ï¿½Ìµï¿½ ï¿½ï¿½Ã¼ */
 	#slide {font-family: 'Sawarabi Mincho', sans-serif; font-weight:bold;}
 	#slide li img
 	{
@@ -234,20 +224,20 @@ html {position:relative;}
 		transition:all 0.5s;
 	}
 	
-	/* Ã¹¹øÂ° ½½¶óÀÌµå */
+	/* Ã¹ï¿½ï¿½Â° ï¿½ï¿½ï¿½ï¿½ï¿½Ìµï¿½ */
 	.slide_one {text-align:left;}
 	.slide_one ul {left:280px; top:200px;}
 	#slide .slide_one span:nth-of-type(1) {left:20px; background:#9d6332;}
 	#slide .slide_one span:nth-of-type(2) {left:180px; color:#000; background:#fff;}
 	#slide .slide_one span:hover {color:#fff; background:#000; border:2px solid #fff;}
 	
-	/* µÎ¹øÂ° ½½¶óÀÌµå */
+	/* ï¿½Î¹ï¿½Â° ï¿½ï¿½ï¿½ï¿½ï¿½Ìµï¿½ */
 	.slide_two {text-align:right;}
 	.slide_two ul {right:0px; bottom:200px;}
 	#slide .slide_two span {right:240px; bottom:0; background:#9ca8b6;}
 	#slide .slide_two span:hover {color:#fff; background:#000; border:2px solid #fff;}
 
-	/* ¼¼¹øÂ° ½½¶óÀÌµå */
+	/* ï¿½ï¿½ï¿½ï¿½Â° ï¿½ï¿½ï¿½ï¿½ï¿½Ìµï¿½ */
 	.slide_three {text-align:right;}
 	.slide_three ul {right:40px; top:280px;}
 	#slide .slide_three span:nth-of-type(1) {right:300px; color:#000; background:#ecddbe;}
@@ -255,7 +245,7 @@ html {position:relative;}
 	#slide .slide_three span:hover {color:#fff; background:#000; border:2px solid #fff;}
 	#slide .translate {transform:translateY(40px);}
 	
-/* ¼­ºê ÆäÀÌÁö */
+/* ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
 #sub_page
 {
 	background:#000;
@@ -293,7 +283,7 @@ html {position:relative;}
 	}
 	.gallery strong:hover {background:#fff; color:#000;}
 
-	/* Å« ¾×ÀÚ */
+	/* Å« ï¿½ï¿½ï¿½ï¿½ */
 	.gallery_one li img {width:580px;}
 	.gallery_one span {width:580px; height:160px; bottom:-123px;}
 	.gallery_one strong {bottom:34px;}
@@ -302,7 +292,7 @@ html {position:relative;}
 	.gallery_one li:nth-of-type(3) {left:600px; top:10px;}
 	.gallery_one li:nth-of-type(4) {left:600px; top:440px;}
 	
-	/* ÀÛÀº ¾×ÀÚ */
+	/* ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ */
 	.gallery_two li img {width:380px;}
 	.gallery_two span{width:380px; height:160px; bottom:-132px;}
 	.gallery_two strong {bottom:52px;}
@@ -310,7 +300,7 @@ html {position:relative;}
 	.gallery_two li:nth-of-type(2) {right:-20px; top:280px;}
 	.gallery_two li:nth-of-type(3) {right:20px; top:550px;}
 	
-/* ¸ÞÀÎ ¼½¼Ç */
+/* ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ */
 #container section
 {
 	width:100%; height:700px;
@@ -343,7 +333,7 @@ html {position:relative;}
 	#container section:nth-child(7).on p {top:30%;}
 	#container section:nth-child(7).on span {top:39%;}
 
-/* ÅØ½ºÆ® ¹Ú½º */
+/* ï¿½Ø½ï¿½Æ® ï¿½Ú½ï¿½ */
 #container article {z-index:100;}
 	#container article p
 	{
@@ -460,7 +450,7 @@ html {position:relative;}
 	}
 	.right_footer ul img:hover {transform:scale(1.2);}
 	
-/* ¼­ºê ¼½¼Ç */
+/* ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ */
 #sub_container section
 {
 	width:100%; height:1200px;
